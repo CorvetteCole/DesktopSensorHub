@@ -21,3 +21,5 @@ A board designed to connect to a desktop computer via USB, and add sensors such 
 - Write userspace daemon to handle gestures, color temperature calculation and display color adjustment. Would handle display brightness adjustment too, but I think that would be better served by [wluma](https://github.com/maximbaz/wluma)
 - Figure out if wake on proximity sensor is possible
 
+## Related projects
+- ColorhugALS: https://blogs.gnome.org/hughsie/2015/05/27/colorhugals-and-sensor-hid/ by https://hughsie.com/. Maybe send him an email once you have something interesting?
