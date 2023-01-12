@@ -2,8 +2,9 @@
 A board designed to connect to a desktop computer via USB, and add sensors such as ambient light, color, proximity, gestures, and more via standard Linux IIO
 
 ## Software references
-- https://hackaday.com/2022/10/31/need-an-usb-i2c-adapter-use-your-pico/
-- https://github.com/Nicolai-Electronics/rp2040-i2c-interface
+- Article about the below: https://hackaday.com/2022/10/31/need-an-usb-i2c-adapter-use-your-pico/
+- Repo for RP2040 i2c interface: https://github.com/Nicolai-Electronics/rp2040-i2c-interface
+- Linux module compilation/setup: https://petermolnar.net/article/linux-i2c-iio-collectd/
 
 ## Board references
 - Adafruit breakout for Avago APDS9960 proxmity, ALS, color, gesture sensor: https://www.adafruit.com/product/3595
