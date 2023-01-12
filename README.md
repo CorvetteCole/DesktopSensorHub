@@ -17,3 +17,6 @@ A board designed to connect to a desktop computer via USB, and add sensors such 
 - Optimize, reduce footprint
 - Test v2 PCB
 - Release, make repo public (probably no one will care)
+- Write userspace daemon to handle gestures, color temperature calculation and display color adjustment. Would handle display brightness adjustment too, but I think that would be better served by [wluma](https://github.com/maximbaz/wluma)
+- Figure out if wake on proximity sensor is possible
+
