@@ -11,15 +11,16 @@ A board designed to connect to a desktop computer via USB, and add sensors such 
 - Adafruit QT2040 board for i2c -> USB: https://www.adafruit.com/product/5056
 
 ## Roadmap
-- Test prototype once boards arrive
-- Design PCB, preferrably with USB-C connector on sensor hub
-- Design 3D printed case for sensor so it can mount on top of your PC like a webcam (maybe?)
-- Test v1 PCB
-- Optimize, reduce footprint
-- Test v2 PCB
-- Release, make repo public (probably no one will care)
-- Write userspace daemon to handle gestures, color temperature calculation and display color adjustment. Would handle display brightness adjustment too, but I think that would be better served by [wluma](https://github.com/maximbaz/wluma)
-- Figure out if wake on proximity sensor is possible
+- [ x ] Test prototype once boards arrive
+  - Problem encountered, APDS9960 iio i2c driver needs an interrupt, but no interrupt is provided via RP2040 i2c bridge. Need to figure out if we can somehow provide an interrupt over USB or maybe by acting as a GPIO expander as well
+- [ ] Design PCB, preferrably with USB-C connector on sensor hub
+- [ ] Design 3D printed case for sensor so it can mount on top of your PC like a webcam (maybe?)
+- [ ] Test v1 PCB
+- [ ] Optimize, reduce footprint
+- [ ] Test v2 PCB
+- [ ] Release, make repo public (probably no one will care)
+- [ ] Write userspace daemon to handle gestures, color temperature calculation and display color adjustment. Would handle display brightness adjustment too, but I think that would be better served by [wluma](https://github.com/maximbaz/wluma)
+- [ ] Figure out if wake on proximity sensor is possible
 
 ## Related projects
 - ColorhugALS: https://blogs.gnome.org/hughsie/2015/05/27/colorhugals-and-sensor-hid/ by https://hughsie.com/. Maybe send him an email once you have something interesting?
