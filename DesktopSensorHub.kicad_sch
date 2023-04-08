@@ -3197,7 +3197,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 205.74 69.85 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a5ec3bda-50ac-42fd-a167-580be4267a7e)
     (property "Reference" "R4" (at 205.74 72.39 90)
       (effects (font (size 1.27 1.27)))
