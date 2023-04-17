@@ -13,7 +13,7 @@ A board designed to connect to a desktop computer via USB, and add sensors such 
 ## Roadmap
 - [x] Test prototype once boards arrive
   - Problem encountered, APDS9960 iio i2c driver needs an interrupt, but no interrupt is provided via RP2040 i2c bridge. Need to figure out if we can somehow provide an interrupt over USB or maybe by acting as a GPIO expander as well
-- [ ] Design PCB, preferrably with USB-C connector on sensor hub
+- [x] Design PCB, preferrably with USB-C connector on sensor hub
 - [ ] Design 3D printed case for sensor so it can mount on top of your PC like a webcam (maybe?)
 - [ ] Test v1 PCB
 - [ ] Optimize, reduce footprint
