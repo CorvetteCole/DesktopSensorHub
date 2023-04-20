@@ -1,6 +1,10 @@
 # DesktopSensorHub
 A board designed to connect to a desktop computer via USB, and add sensors such as ambient light, color, proximity, gestures, and more via standard Linux IIO
 
+## Preview (from OSHPark)
+![Front of board](/OSHPark/oshpark_front.png)
+![Back of board](/OSHPark/oshpark_back.png)
+
 ## Software references
 - Article about the below: https://hackaday.com/2022/10/31/need-an-usb-i2c-adapter-use-your-pico/
 - Repo for RP2040 i2c interface: https://github.com/Nicolai-Electronics/rp2040-i2c-interface
