@@ -19,8 +19,16 @@ A board designed to connect to a desktop computer via USB, and add sensors such 
   - Problem encountered, APDS9960 iio i2c driver needs an interrupt, but no interrupt is provided via RP2040 i2c bridge. Need to figure out if we can somehow provide an interrupt over USB or maybe by acting as a GPIO expander as well
 - [x] Design PCB, preferrably with USB-C connector on sensor hub
 - [ ] Design 3D printed case for sensor so it can mount on top of your PC like a webcam (maybe?)
-- [ ] Test v1 PCB
+- [x] Test v1 PCB
+  - With much pain, eventually 1 working board as a result, lessons learned
 - [ ] Optimize, reduce footprint
+  - Remove button, switch to small header, move RP2040 & flash closer to USB port
+  - Remove capacitors from USB data lines (not needed)
+  - Add test points for APDS9960
+  - Move APDS9960 to front of board for ease of assembly
+  - Switch to crystal with smaller footprint (less tall)
+  - Change test points to plates through holes(?)
+  - Break out some extra GPIO because why not
 - [ ] Test v2 PCB
 - [ ] Release, make repo public (probably no one will care)
 - [ ] Write userspace daemon to handle gestures, color temperature calculation and display color adjustment. Would handle display brightness adjustment too, but I think that would be better served by [wluma](https://github.com/maximbaz/wluma)
